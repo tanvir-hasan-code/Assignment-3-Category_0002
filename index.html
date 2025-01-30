@@ -24,6 +24,12 @@
       href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
+      rel="stylesheet"
+    />
     <style>
       .poppins-font {
         font-family: "Poppins", serif;
@@ -35,59 +41,301 @@
         font-weight: 400;
         font-style: normal;
       }
+      .adlam-display {
+        font-family: "ADLaM Display", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
     </style>
   </head>
   <body class="sora-font">
     <!-- header section start -->
-    <header class=" bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
+    <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3]">
       <!-- navigation section start -->
-      <nav class="border-b-2 border-green-500  pb-3 sm:border-none ">
+      <nav class="border-b-2 border-green-500 pb-3 sm:border-none">
         <div class="flex justify-between w-10/12 mx-auto pt-6">
-            <img src="c2-assets/logo-header.png" alt="Logo-Picture">
-        <ul class="sm:flex sm:items-center sm:gap-8 sm:text-xl hidden">
-            <a href="#">
-                <li>Product</li>
-            </a><a href="#">
-                <li>Services</li>
-            </a><a href="#">
-                <li>Contact us</li>
+          <img src="c2-assets/logo-header.png" alt="Logo-Picture" />
+          <ul class="sm:flex sm:items-center sm:gap-8 sm:text-xl hidden">
+            <a href="#"> <li>Product</li> </a
+            ><a href="#"> <li>Services</li> </a
+            ><a href="#">
+              <li>Contact us</li>
             </a>
-        </ul>
-        <ul class="sm:flex sm:items-center sm:space-x-3 sm:gap-6 hidden">
+          </ul>
+          <ul class="sm:flex sm:items-center sm:space-x-3 sm:gap-6 hidden">
             <a href="#">
-                <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                  </svg>
-                  </li>
-            </a><a href="#">
-                <li><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/>
-                  </svg>
-                  </li>
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                  />
+                </svg>
+              </li> </a
+            ><a href="#">
+              <li>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                  />
+                </svg>
+              </li>
             </a>
             <ul class="">
-            <a href="#"><button class="btn btn-outline border-green-400 px-8 py-3">Login</button></a>
-            <a href="#"><button class="btn bg-[#179800] text-white px-8 py-3">Register</button></a>
+              <a href="#"
+                ><button class="btn btn-outline border-green-400 px-8 py-3">
+                  Login
+                </button></a
+              >
+              <a href="#"
+                ><button class="btn bg-[#179800] text-white px-8 py-3">
+                  Register
+                </button></a
+              >
             </ul>
-        </ul>
-        <a class="sm:hidden" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-12 flex items-center text-green-500 ">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
+          </ul>
+          <a class="sm:hidden" href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-12 flex items-center text-green-500"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
           </a>
         </div>
       </nav>
       <!-- navigation section closed -->
       <!-- banner section start -->
       <section class="container mx-auto mt-12 sm:mt-24">
-        <h1 class="text-center font-semibold text-3xl sm:text-6xl leading-normal sm:leading-normal px-8">Freshness <span class="text-green-700">You Can <br> Count</span> On, Prices You’ll Love! </h1>
-        <p class="text-center text-[1rem] sm:text-xl mt-4 sm:mt-8 px-4">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
-        <img class="mx-auto mt-4 sm:mt-9 w-[100%] sm:w-[65%]" src="c2-assets/hero-vegetables.png" alt="Banner Imgae">
+        <h1
+          class="text-center font-semibold text-3xl sm:text-6xl leading-normal sm:leading-normal px-8"
+        >
+          Freshness
+          <span class="text-green-700"
+            >You Can <br />
+            Count</span
+          >
+          On, Prices You’ll Love!
+        </h1>
+        <p class="text-center text-[1rem] sm:text-xl mt-4 sm:mt-8 px-4">
+          Shop your daily essentials at unbeatable prices. From fresh produce to
+          pantry <br />
+          staples, we’ve got you covered every day!
+        </p>
+        <img
+          class="mx-auto mt-4 sm:mt-9 w-[100%] sm:w-[65%]"
+          src="c2-assets/hero-vegetables.png"
+          alt="Banner Imgae"
+        />
       </section>
       <!-- banner section closed -->
     </header>
     <!-- header section closed -->
     <!-- main section start -->
-    <main></main>
+    <main>
+      <!-- services Section start -->
+      <section class="px-4 mt-12 sm:w-9/12 mx-auto">
+        <h1 class="text-green-700 text-xl font-semibold sm:text-4xl">
+          Services
+        </h1>
+        <div class="sm:flex mt-8 sm:mt-12 grid gap-6">
+          <div class="bg-[#EFEBE3] rounded-lg shadow-lg p-8 pt-8 pb-12">
+            <div
+              class="bg-white mx-auto h-36 w-36 flex items-center justify-center rounded-[100%]"
+            >
+              <img
+                class="h-24 w-24"
+                src="c2-assets/service.png"
+                alt="Service-Time"
+              />
+            </div>
+            <h2
+              class="font-semibold text-xl sm:text-2xl text-center mt-5 sm:mt-6"
+            >
+              24/7 Services
+            </h2>
+            <p class="font-light text-[1rem] sm:text-xl text-center mt-3">
+              Shop with ease, anytime, anywhere.Fresh and quality products
+              delivered to your doorstep. We are here for you 24/7!
+            </p>
+          </div>
+          <div class="bg-[#EFEBE3] rounded-lg shadow-lg p-8 pt-8 pb-12">
+            <div
+              class="bg-white mx-auto h-36 w-36 flex items-center justify-center rounded-[100%]"
+            >
+              <img
+                class="h-24 w-24"
+                src="c2-assets/delivery.png"
+                alt="Delivery-Van"
+              />
+            </div>
+            <h2
+              class="font-semibold text-xl sm:text-2xl text-center mt-5 sm:mt-6"
+            >
+              Fast Delivery
+            </h2>
+            <p class="font-light text-[1rem] sm:text-xl text-center mt-3">
+              Order now and get it fast! We understand the value of your time.
+              Fast delivery, on time! Your satisfaction is our top priority!
+            </p>
+          </div>
+          <div class="bg-[#EFEBE3] rounded-lg shadow-lg p-8 pt-8 pb-12">
+            <div
+              class="bg-white mx-auto h-36 w-36 flex items-center justify-center rounded-[100%]"
+            >
+              <img
+                class="h-24 w-24"
+                src="c2-assets/healthy.png"
+                alt="Healthy Products"
+              />
+            </div>
+            <h2
+              class="font-semibold text-xl sm:text-2xl text-center mt-5 sm:mt-6"
+            >
+              Healthy Products
+            </h2>
+            <p class="font-light text-[1rem] sm:text-xl text-center mt-3">
+              Enjoy the goodness of healthy products! Fresh, nutritious, and
+              packed with vitamins. We bring quality to your doorstep.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Service Section closed -->
+      <!-- Popular Products section start-->
+      <section class="sm:mt-36 mt-12 bg-[#EFEBE3]">
+        <div class="sm:w-9/12 px-4 mx-auto">
+          <h1
+            class="text-green-700 text-xl font-semibold sm:text-4xl pt-12 sm:pt-36"
+          >
+            Popular Products
+          </h1>
+          <div class=" grid  sm:grid-cols-5 gap-[14px] sm:mt-12 sm:pb-36">
+            <div class="rounded-xl bg-gradient-to-br col-span-2 sm:row-span-3  from-[#53DB3A] to-[#fff]">
+              <h1 class="text-3xl sm:text-6xl text-white adlam-display pt-11 sm:pt- pl-7">
+                30% off
+              </h1>
+              <p class="text-xs sm:text-xl mt-5 pl-7">
+                Discover a world of treats, toys, and <br />
+                essentials handpicked for
+              </p>
+              <div class="flex justify-between">
+                <a class="pl-7" href="#"
+                  ><button
+                    class="text-[1rem] sm:text-xl px-6 sm:px-8 py-2 sm:py-3 bg-white btn mt-5"
+                  >
+                    Buy Now
+                  </button></a
+                >
+                <img
+                  class="w-[50%] sm:w-[50%]"
+                  src="c2-assets/vegetable-offer.png"
+                  alt="Vegetable and Fruits"
+                />
+              </div>
+            </div>
+            <div class="flex items-center p-3 gap-4 bg-white rounded-xl">
+              <img class=" border w-[50%] rounded-xl" src="c2-assets/onion.jpg" alt="" />
+              <span>
+                <p class="flex gap-2 text-xs items-center"><img class="w-3" src="c2-assets/star.png" alt="Star">4.5</p>
+                <h5 class="text-xs font-semibold">Onion 1 KG</h5>
+                <p class="text-[.6rem]">$20.99</p>
+              </span>
+            </div>
+            <div class="flex items-center p-3 gap-4 bg-white rounded-xl">
+              <img class=" border w-[50%] rounded-xl" src="c2-assets/tomato.jpg" alt="" />
+              <span>
+                <p class="flex gap-2 text-xs items-center"><img class="w-3" src="c2-assets/star.png" alt="Star">4.5</p>
+                <h5 class="text-xs font-semibold">Tomato 500g</h5>
+                <p class="text-[.6rem]">$20.99</p>
+              </span>
+            </div>
+            <div class="flex items-center p-3 gap-4 bg-white rounded-xl">
+              <img class=" border w-[50%] rounded-xl" src="c2-assets/potato.jpg" alt="" />
+              <span>
+                <p class="flex gap-2 text-xs items-center"><img class="w-3" src="c2-assets/star.png" alt="Star">4.5</p>
+                <h5 class="text-xs font-semibold">Potato 1 KG</h5>
+                <p class="text-[.6rem]">$20.99</p>
+              </span>
+            </div>
+            <div class="flex items-center p-3 gap-4 bg-white rounded-xl">
+              <img class=" border w-[50%] rounded-xl" src="c2-assets/onion.jpg" alt="" />
+              <span>
+                <p class="flex gap-2 text-xs items-center"><img class="w-3" src="c2-assets/star.png" alt="Star">4.5</p>
+                <h5 class="text-xs font-semibold">Onion 1 KG</h5>
+                <p class="text-[.6rem]">$20.99</p>
+              </span>
+            </div>
+            <div class="flex items-center p-3 gap-4 bg-white rounded-xl">
+              <img class=" border w-[50%] rounded-xl" src="c2-assets/tomato.jpg" alt="" />
+              <span>
+                <p class="flex gap-2 text-xs items-center"><img class="w-3" src="c2-assets/star.png" alt="Star">4.5</p>
+                <h5 class="text-xs font-semibold">Tomato 500g</h5>
+                <p class="text-[.6rem]">$20.99</p>
+              </span>
+            </div>
+            <div class="flex items-center p-3 gap-4 bg-white rounded-xl">
+              <img class=" border w-[50%] rounded-xl" src="c2-assets/potato.jpg" alt="" />
+              <span>
+                <p class="flex gap-2 text-xs items-center"><img class="w-3" src="c2-assets/star.png" alt="Star">4.5</p>
+                <h5 class="text-xs font-semibold">Potato 1 KG</h5>
+                <p class="text-[.6rem]">$20.99</p>
+              </span>
+            </div>
+            <div class="flex items-center p-3 gap-4 bg-white rounded-xl">
+              <img class=" border w-[50%] rounded-xl" src="c2-assets/onion.jpg" alt="" />
+              <span>
+                <p class="flex gap-2 text-xs items-center"><img class="w-3" src="c2-assets/star.png" alt="Star">4.5</p>
+                <h5 class="text-xs font-semibold">Onion 1 KG</h5>
+                <p class="text-[.6rem]">$20.99</p>
+              </span>
+            </div>
+            <div class="flex items-center p-3 gap-4 bg-white rounded-xl">
+              <img class=" border w-[50%] rounded-xl" src="c2-assets/tomato.jpg" alt="" />
+              <span>
+                <p class="flex gap-2 text-xs items-center"><img class="w-3" src="c2-assets/star.png" alt="Star">4.5</p>
+                <h5 class="text-xs font-semibold">Tomato 500g</h5>
+                <p class="text-[.6rem]">$20.99</p>
+              </span>
+            </div>
+            <div class="sm:flex items-center p-3 gap-4 bg-white rounded-xl hidden">
+              <img class=" border w-[50%] rounded-xl" src="c2-assets/potato.jpg" alt="" />
+              <span>
+                <p class="flex gap-2 text-xs items-center"><img class="w-3" src="c2-assets/star.png" alt="Star">4.5</p>
+                <h5 class="text-xs font-semibold">Potato 1 KG</h5>
+                <p class="text-[.6rem]">$20.99</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Popular Products section closed -->
+    </main>
     <!-- main section closed -->
     <!-- footer section start -->
     <footer></footer>
