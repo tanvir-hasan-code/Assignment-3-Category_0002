@@ -46,6 +46,43 @@
         font-weight: 400;
         font-style: normal;
       }
+      @keyframes slideInFromLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+     }
+    .banner-title {
+      animation: slideInFromLeft 1.5s ease-in-out;
+    }
+
+    @keyframes slideInFromRight {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+    }
+   .banner-discription{
+     animation: slideInFromRight 1s ease-in-out;
+    }
+    .banner{
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-img { 
+  width: 100%;
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50%{
+    opacity:.5; 
+  }
+  100% {
+    opacity: 1;
+  }
+}
     </style>
   </head>
   <body class="sora-font">
@@ -131,9 +168,9 @@
       </nav>
       <!-- navigation section closed -->
       <!-- banner section start -->
-      <section class="container mx-auto mt-12 sm:mt-24">
+      <section class="banner container mx-auto mt-12 sm:mt-24">
         <h1
-          class="text-center font-semibold text-3xl sm:text-6xl leading-normal sm:leading-normal px-8"
+          class="banner-title text-center font-semibold text-3xl sm:text-6xl leading-normal sm:leading-normal px-8"
         >
           Freshness
           <span class="text-green-700"
@@ -142,13 +179,13 @@
           >
           On, Prices You’ll Love!
         </h1>
-        <p class="text-center text-[1rem] sm:text-xl mt-4 sm:mt-8 px-4">
+        <p class="banner-discription text-center text-[1rem] sm:text-xl mt-4 sm:mt-8 px-4">
           Shop your daily essentials at unbeatable prices. From fresh produce to
           pantry <br />
           staples, we’ve got you covered every day!
         </p>
         <img
-          class="mx-auto mt-4 sm:mt-9 w-[100%] sm:w-[65%]"
+          class="banner-img mx-auto mt-4 sm:mt-9 w-[100%] sm:w-[65%]"
           src="c2-assets/hero-vegetables.png"
           alt="Banner Imgae"
         />
@@ -336,7 +373,7 @@
       </section>
       <!-- Popular Products section closed -->
        <!-- Arrival and Offers Section start --> 
-        <section class="px-4 sm:w-10/12 mx-auto">
+        <section class="px-4 sm:w-10/12 mx-auto mb-20">
           <h1 class="text-green-700 font-semibold text-2xl sm:text-5xl pt-12 sm:pt-36">Arrival & Offers</h1>
           <div class="sm:flex gap-5 sm:mt-12">
             <!-- offer card-1 -->
@@ -361,7 +398,7 @@
         </section>
         <!-- Arrival and Offers Section closed -->
          <!-- Grocery News Section start -->
-          <section class="px-4 sm:w-10/12 mx-auto ">
+          <section class="px-4 sm:w-10/12 mx-auto absolute left-0 right-0 z-10 ">
               <div class=" bg-[#EFEBE3] rounded-2xl mt-12 pt-8 pb-10 px-4 sm:flex sm:justify-around sm:py-14 sm:items-center">
                 <img src="c2-assets/vegetable-busket.png" alt="Vegetable and Fruits Busket">
               <span class="">
@@ -376,7 +413,7 @@
     </main>
     <!-- main section closed -->
     <!-- footer section start -->
-    <footer class="bg-green-700 px-4 pt-72 pb-12 ">
+    <footer class="bg-green-700 px-4 pt-72 pb-12 mt-72 relative sm:mt-96">
       <div class="sm:w-10/12 sm:flex  mx-auto ">
         <div>
           <img src="c2-assets/logo-footer.png" alt="Natures_Platter_Logo_Footer">
